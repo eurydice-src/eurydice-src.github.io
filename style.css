@@ -1,0 +1,50 @@
+html, body {
+    color:white;
+    background:linear-gradient(rgb(11, 10, 19),rgb(0,0,0)) no-repeat;
+    height:100%;
+
+
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 28px;
+}
+
+::selection {
+    background: white;
+    color:rgb(11, 10, 19);
+}
+
+.text-link {
+    color:white;
+    text-decoration: underline;
+
+}
+
+a {
+    color:white;
+}
+
+a:hover {
+    color:rgb(11, 10, 19);
+    background:white;
+}
+
+#site-body {
+    padding-top:100px;
+    background-color:rgb(11, 10, 19);
+    border:solid black 1px;
+}
+
+.navbar {
+    background-color:rgb(11, 10, 19);
+    border:none;
+    border:solid black 1px;
+}
+
+h1 {
+    font-size:64px;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size:38px;
+    margin-bottom: 20px;
+}
