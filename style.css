@@ -1,6 +1,12 @@
+:root {
+    --bg-color: rgb(24, 21, 21);
+    --text-color:rgb(141, 144, 226);
+  }
+  
+
 html, body {
-    color:white;
-    background:rgb(11, 10, 19);
+    color: var(--text-color);
+    background: var(--bg-color);
     height:100%;
 
 
@@ -10,36 +16,37 @@ html, body {
 }
 
 ::selection {
-    background: white;
-    color:rgb(11, 10, 19);
+    background: var(--text-color);
+    color: var(--bg-color);
 }
 
 .text-link {
-    color:white;
+    color: var(--text-color);
     text-decoration: underline;
 
 }
 
-a {
-    color:white;
+a, a:visited, a:active {
+    color: var(--text-color);
     transition: 0.1s;
 }
 
 a:hover {
-    color:rgb(11, 10, 19);
-    background:white;
+    color: var(--bg-color);
+    background: var(--text-color);
 }
+
 
 #site-body {
     padding-top:100px;
     padding-bottom:100px;
-    margin-left:28%;
-    background-color:rgb(11, 10, 19);
+    padding-left:28%;
+    background-color: var(--bg-color);
     position: relative;
 }
 
 .navbar {
-    background-color:rgb(11, 10, 19);
+    background-color: var(--bg-color);
     border:none;
     border:solid black 2px;
 }

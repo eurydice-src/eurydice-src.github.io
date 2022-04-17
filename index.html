@@ -22,7 +22,7 @@
         <link rel='stylesheet' href='style.css'>
     </head>
         
-    <body>
+    <body onload="changeBg()">
         <nav class="navbar navbar-dark navbar-fixed-top navbar-slide-nav">
             <div class="container">
               <div class="navbar-header">
@@ -41,7 +41,7 @@
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">more... <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a href="#" >Action</a></li>
+                      <li><a onclick="changeBg()" href="javascript:void(0)" >change text color (or press c)</a></li>
                       <li><a href="#">Another action</a></li>
                       <li><a href="#">Something else here</a></li>
                       <li role="separator" class="divider"></li>
@@ -54,10 +54,9 @@
             </div>
           </nav>
 
-        <div id="site-body" class="container">
+        <div id="site-body" class="container-fluid">
             <h1>welcome to my website</h1>
-            <p>I'll use this website to keep track of my coding projects</p>
-            <p>That's about it</p>
+            <p>Here I will keep track of my <a onclick="changeBg()" href="javascript:void(0)">coding</a> projects</p>
             
             <h2 id="projects">some projects</h2>
             <p><a class="text-link" href="https://github.com/eurydice-src/eurydice-src.github.io">This Website</a> - That's this site's github page!</p>
@@ -69,7 +68,6 @@
             
         </div>
         
-        
-        <!-- <script src='scripts.js'></script> -->
+        <script src='scripts.js'></script>
     </body>
 </html>
